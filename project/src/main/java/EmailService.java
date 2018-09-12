@@ -2,7 +2,8 @@ import java.util.Collection;
 
 public interface EmailService {
 
-    public boolean sendEmail(Email email);
-    public Collection<Email> emailList(EmailAccount account);
+    boolean sendEmail(Email email);
+
+    Collection<Email> emailList(EmailAccount account);
 
 }

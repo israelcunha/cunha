@@ -1,50 +1,16 @@
-import java.util.Date;
+import java.time.LocalDate;
 
 public class EmailAccount {
+    private String user;
+    private String domain;
+    private String password;
+    private LocalDate lastPasswordUpdate;
 
-   public String user;
-   private String domain;
-   public String password;
-   public Date lastPasswordUpdate;
-
-
-    public EmailAccount() {
-
-    }
-
-    public String getUser() {
-        return user;
-    }
-
-    public String getDomain() {
-        return domain;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public Date getLastPasswordUpdate() {
-        return lastPasswordUpdate;
-    }
-
-    public void setUser(String user) {
-        this.user = user;
-    }
-
-    public void setDomain(String domain) {
-        this.domain = domain;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-    public boolean verifyPasswordExpiration(){
-        return true;
-
-    }
-    public void setLastPasswordUpdate(Date lastPasswordUpdate) {
+    public void setLastPasswordUpdate(LocalDate lastPasswordUpdate) {
         this.lastPasswordUpdate = lastPasswordUpdate;
+    }
+
+    public boolean verifyPasswordExpiration(String password){
+        throw new UnsupportedOperationException();
     }
 }

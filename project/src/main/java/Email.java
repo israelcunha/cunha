@@ -1,65 +1,41 @@
+import java.time.Instant;
 import java.util.Collection;
 
 public class Email {
+    private Instant creationDate;
+    private String from ;
+    private Collection <String> to;
+    private Collection <String> cc;
+    private Collection <String> bcc;
+    private String subject;
+    private String message;
 
-   public String from;
-   Collection<String> to;
-   Collection<String> cc;
-   Collection<String> bcc;
-   public String subject;
-   public String message;
 
+    public Instant getCreationDate() { return creationDate;}
 
-   public Email(){
+    public void setCreationDate(Instant creationDate) {this.creationDate = creationDate;}
 
-    }
+    public String getFrom() {return from;}
 
-    public String getFrom() {
-        return from;
-    }
+    public void setFrom(String from) {this.from = from;}
 
-    public Collection<String> getTo() {
-        return to;
-    }
+    public Collection<String> getTo() {return to;}
 
-    public Collection<String> getCc() {
-        return cc;
-    }
+    public void setTo(Collection<String> to) {this.to = to;}
 
-    public Collection<String> getBcc() {
-        return bcc;
-    }
+    public Collection<String> getCc() {return cc;}
 
-    public String getSubject() {
-        return subject;
-    }
+    public void setCc(Collection<String> cc) {this.cc = cc;}
 
-    public String getMessage() {
-        return message;
-    }
+    public Collection<String> getBcc() {return bcc;}
 
-    public void setFrom(String from) {
-        this.from = from;
-    }
+    public void setBcc(Collection<String> bcc) {this.bcc = bcc;}
 
-    public void setTo(Collection<String> to) {
-        this.to = to;
-    }
+    public String getSubject() {    return subject;}
 
-    public void setCc(Collection<String> cc) {
-        this.cc = cc;
-    }
+    public void setSubject(String subject) {this.subject = subject;}
 
-    public void setBcc(Collection<String> bcc) {
-        this.bcc = bcc;
-    }
+    public String getMessage() {return message;}
 
-    public void setSubject(String subject) {
-        this.subject = subject;
-    }
-
-    public void setMessage(String message) {
-        this.message = message;
-    }
-
+    public void setMessage(String message) {this.message = message; }
 }

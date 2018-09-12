@@ -2,38 +2,29 @@ import java.util.Collection;
 
 public class EmailClient {
 
-    public EmailService emailService;
-    public Collection <EmailAccount> accounts;
-
-       public EmailClient(){
-
-    }
-
-    public Collection<EmailAccount> getAccounts() {
-        return accounts;
-    }
-
-    public void setAccounts(Collection<EmailAccount> accounts) {
-        this.accounts = accounts;
-    }
+    private EmailService emailService;
 
     public void setEmailService(EmailService emailService){
+        this.emailService = emailService;
+    }
 
+    public boolean isValidAddress(String emailAddress){
+        throw new UnsupportedOperationException();
     }
 
     public boolean isValidEmail(Email email){
-            return true;
+        throw new UnsupportedOperationException();
     }
 
     public Collection<Email> emailList(EmailAccount account){
-            return null;
+        throw new UnsupportedOperationException();
     }
 
-    public Email sendEmail(Email email){
-            return email;
+    public void sendEmail(Email email){
+        throw new UnsupportedOperationException();
     }
 
     public boolean createAccount(EmailAccount account){
-            return true;
+        throw new UnsupportedOperationException();
     }
 }
