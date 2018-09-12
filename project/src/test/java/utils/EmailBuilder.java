@@ -9,7 +9,7 @@ public class EmialBuilder {
     private String subject "sub";
     private String message "Mensagem";
 
-     public void setCreationDate(Instant creationDate) {
+    public void setCreationDate(Instant creationDate) {
         this.creationDate = creationDate;
         return this;
     }
