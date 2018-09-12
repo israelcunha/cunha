@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b5fc98f7-2bb4-4ec4-8ab5-f69be2c38e6e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../cesar-school-unit-testing" beforeDir="false" afterPath="$PROJECT_DIR$/../cesar-school-unit-testing" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/EmailAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EmailAccountTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/EmailBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/EmailBuilder.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -130,7 +127,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/EmailAccountTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
-              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -234,7 +231,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536721415898" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536721697254" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA&#10;JQL" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../cesar-school-unit-testing" />
     <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
@@ -399,7 +396,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/EmailAccountTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
