@@ -4,8 +4,7 @@ public class EmailClient implements EmailService{
 
 
 
-    public boolean isValidAddress(String emailAddress){
-        throw new UnsupportedOperationException();
+    public boolean isValidAddress(String emailAddress){throw new NullPointerException();
     }
 
     public boolean isValidEmail(Email email){

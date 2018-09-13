@@ -1,13 +1,14 @@
 import java.time.Instant;
+import java.util.ArrayList;
 import java.util.Collection;
 
 
 public class EmailBuilder {
     private Instant creationDate = Instant.now();
-    private String from = "date" ;
-    private Collection<String> to;
-    private Collection <String> cc;
-    private Collection <String> bcc;
+    private String from = "maria@ffm.com" ;
+    private Collection<String> to = new ArrayList<String>();
+    private Collection <String> cc = new ArrayList<String>();
+    private Collection <String> bcc = new ArrayList<String>();
     private String subject  = "sub";
     private String message = "Mensagem";
 
