@@ -1,28 +1,31 @@
+
+import com.sun.org.apache.xpath.internal.operations.Equals;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import school.cesar.unit.exercises.utils.PersonBuilder;
 
+
+import java.time.Instant;
 import java.time.LocalDate;
 import java.time.Month;
 
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class test {
+public class EmailAccountTest {
 
-    PersonBuilder personBuilder;
+    EmailBuilder emailBuilder;
+    EmailAccount emailAccount;
     LocalDate now = LocalDate.now();
 
     @BeforeEach
-    public void setUpTest(){
-        peopleComparator = new PeopleComparator(){
-            @Override
-            public LocalDate getCurrentDate(){
-                return now;
-            }
-        };
-        personBuilder = new PersonBuilder();
+    public void setUpTest() {
 
-
+        this.emailBuilder = new EmailBuilder();
     }
+
+    @Test
+    public void verifyPasswordExpiration(){
+       emailBuilder.setCreationDate(Instant.now());
+       emailAccount.setLastPasswordUpdate(LocalDate.now());
+       assertTrue(() -> true);
+    }
+}

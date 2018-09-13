@@ -10,6 +10,19 @@ public class Email {
     private String subject;
     private String message;
 
+    public Email() {
+    }
+
+
+    public Email(Instant creationDate, String from, Collection<String> to, Collection<String> cc, Collection<String> bcc, String subject, String message) {
+        this.creationDate = creationDate;
+        this.from = from;
+        this.to = to;
+        this.cc = cc;
+        this.bcc = bcc;
+        this.subject = subject;
+        this.message = message;
+    }
 
     public Instant getCreationDate() { return creationDate;}
 

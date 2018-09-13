@@ -1,15 +1,10 @@
 import java.util.Collection;
 
-public class EmailClient {
+public class EmailClient implements EmailService{
 
-    private EmailService emailService;
 
-    public void setEmailService(EmailService emailService){
-        this.emailService = emailService;
-    }
 
-    public boolean isValidAddress(String emailAddress){
-        throw new UnsupportedOperationException();
+    public boolean isValidAddress(String emailAddress){throw new NullPointerException();
     }
 
     public boolean isValidEmail(Email email){
@@ -20,7 +15,7 @@ public class EmailClient {
         throw new UnsupportedOperationException();
     }
 
-    public void sendEmail(Email email){
+    public boolean sendEmail(Email email){
         throw new UnsupportedOperationException();
     }
 
