@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5fc98f7-2bb4-4ec4-8ab5-f69be2c38e6e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EmailAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EmailAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EmailClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EmailClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EmailService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/EmailClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EmailClientTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/EmailAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/EmailAccount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/EmailClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/EmailClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/EmailService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/EmailService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/EmailClientTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/EmailClientTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -66,12 +57,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1321" />
+          <entry key="java" value="1351" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1321" />
+          <entry key="JAVA" value="1351" />
         </counts>
       </usages-collector>
     </session>
@@ -121,17 +112,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/EmailClientTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="47" lean-forward="true" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+            <state relative-caret-position="438">
+              <caret line="48" column="31" lean-forward="true" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#618#619#0" expanded="true" />
+                <element signature="e#665#666#0" expanded="true" />
                 <element signature="e#876#877#0" expanded="true" />
                 <element signature="e#908#909#0" expanded="true" />
                 <element signature="e#889#890#0" expanded="true" />
                 <element signature="e#947#948#0" expanded="true" />
                 <element signature="e#947#948#0" expanded="true" />
                 <element signature="e#1006#1007#0" expanded="true" />
-                <element signature="e#997#998#0" expanded="true" />
                 <element signature="e#1082#1083#0" expanded="true" />
               </folding>
             </state>
@@ -302,7 +294,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536925880724" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536926307365" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../cesar-school-unit-testing" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -523,17 +515,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/EmailClientTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="47" lean-forward="true" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+        <state relative-caret-position="438">
+          <caret line="48" column="31" lean-forward="true" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#665#666#0" expanded="true" />
             <element signature="e#876#877#0" expanded="true" />
             <element signature="e#908#909#0" expanded="true" />
             <element signature="e#889#890#0" expanded="true" />
             <element signature="e#947#948#0" expanded="true" />
             <element signature="e#947#948#0" expanded="true" />
             <element signature="e#1006#1007#0" expanded="true" />
-            <element signature="e#997#998#0" expanded="true" />
             <element signature="e#1082#1083#0" expanded="true" />
           </folding>
         </state>

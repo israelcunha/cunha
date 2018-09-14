@@ -21,7 +21,8 @@ public class EmailClientTest {
     }
 
     @Test
-    public void setEmailService(EmailService emailService)throws Exception{
+    public void setEmailService(EmailService emailService){
+        assertEquals("email","email");
     }
 
     @Test
