@@ -34,9 +34,16 @@ public class EmailAccount {
         this.lastPasswordUpdate = lastPasswordUpdate;
     }
 
-    public boolean verifyPasswordExpiration(String password) {
+    public boolean verifyPasswordExpiration() {
+        LocalDate dataAtual = LocalDate.now();
+        int mes = this.lastPasswordUpdate.getMonthValue();
+        int ano = this.lastPasswordUpdate.getYear();
+        if (dataAtual.getYear() == ano && dataAtual.getMonthValue() - mes >= 3) {
+            return false;
+        } else if (dataAtual.getMonthValue() == (mes + 3) - 12) {
+            return false;
+        }
         return true;
 
     }
-
 }
