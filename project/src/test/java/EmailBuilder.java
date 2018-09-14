@@ -1,19 +1,56 @@
 import java.time.Instant;
-import java.util.ArrayList;
+import java.time.LocalDate;
 import java.util.Collection;
 
 
 public class EmailBuilder {
-    private Instant creationDate = Instant.now();
-    private String from = "maria@ffm.com" ;
-    private Collection<String> to = new ArrayList<String>();
-    private Collection <String> cc = new ArrayList<String>();
-    private Collection <String> bcc = new ArrayList<String>();
-    private String subject  = "sub";
-    private String message = "Mensagem";
+    private LocalDate creationDate = LocalDate.now();
+    private String from ;
+    private Collection<String> to;
+    private Collection <String> cc;
+    private Collection <String> bcc;
+    private String subject;
+    private String message;
+    private String user;
+    private String domain;
+    private String password;
+    private LocalDate lastPasswordUpdate;
 
 
-    public EmailBuilder setCreationDate(Instant creationDate) {
+    public EmailBuilder setUser(String user) {
+        this.user = user;
+        return this;
+    }
+    public String getUser() {
+        return user;
+          }
+
+    public String getDomain() {
+        return domain;
+          }
+
+    public String getPassword() {
+        return password;
+         }
+
+    public LocalDate getLastPasswordUpdate() {
+        return lastPasswordUpdate;
+    }
+
+    public void setDomain(String domain) {
+        this.domain = domain;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+          }
+
+    public void setLastPasswordUpdate(LocalDate lastPasswordUpdate) {
+        this.lastPasswordUpdate = lastPasswordUpdate;
+
+    }
+
+    public EmailBuilder setCreationDate(LocalDate creationDate) {
         this.creationDate = creationDate;
         return this;
     }
@@ -49,14 +86,19 @@ public class EmailBuilder {
     }
 
     public Email build(){
-        Email emial = new Email();
-        emial.setCreationDate (this.creationDate);
-        emial.setFrom(this.from);
-        emial.setTo(this.to);
-        emial.setCc(this.cc);
-        emial.setBcc(this.bcc);
-        emial.setSubject(this.subject);
-        emial.setMessage(this.message);
-        return emial;
+        Email email = new Email();
+        email.setCreationDate (this.creationDate);
+        email.setFrom(this.from);
+        email.setTo(this.to);
+        email.setCc(this.cc);
+        email.setBcc(this.bcc);
+        email.setSubject(this.subject);
+        email.setMessage(this.message);
+        email.setDomain(this.domain);
+        email.setPassword(this.password);
+        email.setUser(this.user);
+        email.setLastPasswordUpdate(this.lastPasswordUpdate);
+
+        return email;
     }
 }

@@ -1,10 +1,12 @@
 import java.time.LocalDate;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class EmailAccount {
-    private String user = "user";
-    private String domain = "ffm";
-    private String password = "jose";
-    private LocalDate lastPasswordUpdate = LocalDate.now();
+    private String user;
+    private String domain;
+    private String password;
+    private LocalDate lastPasswordUpdate;
 
     public String getUser() {
         return user;
@@ -34,6 +36,8 @@ public class EmailAccount {
         this.lastPasswordUpdate = lastPasswordUpdate;
     }
 
+
+
     public boolean verifyPasswordExpiration() {
         LocalDate dataAtual = LocalDate.now();
         int mes = this.lastPasswordUpdate.getMonthValue();
@@ -46,4 +50,5 @@ public class EmailAccount {
         return true;
 
     }
+
 }
