@@ -8,17 +8,11 @@ public class EmailAccount {
     private String password;
     private LocalDate lastPasswordUpdate;
 
-    public String getUser() {
-        return user;
-    }
+    public String getUser() {return user;}
 
-    public String getDomain() {
-        return domain;
-    }
+    public String getDomain() {return domain;}
 
-    public String getPassword() {
-        return password;
-    }
+    public String getPassword() {return password;}
 
     public void setUser(String user) {
         this.user = user;

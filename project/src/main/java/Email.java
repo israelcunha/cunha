@@ -1,4 +1,3 @@
-import java.time.Instant;
 import java.time.LocalDate;
 import java.util.Collection;
 
@@ -10,17 +9,13 @@ public class Email {
     private Collection <String> bcc;
     private String subject;
     private String message;
-    private String user;
-    private String domain;
-    private String password;
-    private LocalDate lastPasswordUpdate;
 
     public Email() {
     }
 
 
     public Email(LocalDate creationDate, String from, Collection<String> to, Collection<String> cc, Collection<String> bcc,
-                 String subject, String message, String user, String domain, String password, LocalDate lastPasswordUpdate) {
+                 String subject, String message) {
 
         this.creationDate = creationDate;
         this.from = from;
@@ -29,10 +24,6 @@ public class Email {
         this.bcc = bcc;
         this.subject = subject;
         this.message = message;
-        this.user = user;
-        this.domain = domain;
-        this.password = password;
-        this.lastPasswordUpdate = LocalDate.now();
     }
 
     public LocalDate getCreationDate() { return creationDate;}
@@ -65,18 +56,4 @@ public class Email {
 
     public String getUser(String user) {return user;}
 
-    public void setUser(String user) { this.user = user;}
-
-    public String getDomain() { return domain; }
-
-    public void setDomain(String domain) {this.domain = domain;}
-
-    public String getPassword() { return password; }
-
-    public void setPassword(String password) {this.password = password;}
-
-    public LocalDate getLastPasswordUpdate() {return lastPasswordUpdate;}
-
-    public void setLastPasswordUpdate(LocalDate lastPasswordUpdate) {this.lastPasswordUpdate = lastPasswordUpdate;
-    }
-}
+   }

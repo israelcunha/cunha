@@ -13,8 +13,8 @@ public class EmailClient implements EmailService {
     public void setEmailService (EmailService emailService){
             this.emailService = emailService;
         }
-        public boolean isValidAddress (String emailAddress){
-            Pattern p = Pattern.compile("\\b[A-Z0-9._%-]+@[A-Z0-9.-]+\\.[A-Z]{2,4}\\b");
+        public static boolean isValidAddress(String emailAddress){
+            Pattern p = Pattern.compile("^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,6}$", Pattern.CASE_INSENSITIVE);
             Matcher m = p.matcher(emailAddress);
 
             return m.find();

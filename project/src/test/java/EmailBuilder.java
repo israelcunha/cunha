@@ -1,4 +1,3 @@
-import java.time.Instant;
 import java.time.LocalDate;
 import java.util.Collection;
 
@@ -11,44 +10,8 @@ public class EmailBuilder {
     private Collection <String> bcc;
     private String subject;
     private String message;
-    private String user;
-    private String domain;
-    private String password;
-    private LocalDate lastPasswordUpdate;
 
 
-    public EmailBuilder setUser(String user) {
-        this.user = user;
-        return this;
-    }
-    public String getUser() {
-        return user;
-          }
-
-    public String getDomain() {
-        return domain;
-          }
-
-    public String getPassword() {
-        return password;
-         }
-
-    public LocalDate getLastPasswordUpdate() {
-        return lastPasswordUpdate;
-    }
-
-    public void setDomain(String domain) {
-        this.domain = domain;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-          }
-
-    public void setLastPasswordUpdate(LocalDate lastPasswordUpdate) {
-        this.lastPasswordUpdate = lastPasswordUpdate;
-
-    }
 
     public EmailBuilder setCreationDate(LocalDate creationDate) {
         this.creationDate = creationDate;
@@ -94,10 +57,6 @@ public class EmailBuilder {
         email.setBcc(this.bcc);
         email.setSubject(this.subject);
         email.setMessage(this.message);
-        email.setDomain(this.domain);
-        email.setPassword(this.password);
-        email.setUser(this.user);
-        email.setLastPasswordUpdate(this.lastPasswordUpdate);
 
         return email;
     }

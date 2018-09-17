@@ -11,6 +11,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class EmailClientTest {
 
     EmailBuilder emailBuilder;
+    EmailAccountBuilder emailAccountBuilder;
     EmailClient emailClient;
 
     private Collection<String> to;
@@ -127,7 +128,7 @@ public class EmailClientTest {
 
     @Test
     public void testEmailListWithPasswordValid() throws RuntimeException {
-        EmailAccount emailClientTest = emailBuilder.setUser("UserName").setDomain("UserDamain").setPassword("988654")
+        EmailAccount emailClientTest = emailAccountBuilder.setUser("UserName").setDomain("UserDamain").setPassword("988654")
                 .setLastPasswordUpdate(LocalDate.now()).build();
 
         Assertions.assertDoesNotThrow(() -> {
@@ -137,7 +138,7 @@ public class EmailClientTest {
 
     @Test
     public void testEmailListWithPasswordInvalid() throws RuntimeException {
-        EmailAccount emailAccountTest = emailBuilder.setUser("UserName").setDomain("UserDamain").setPassword("988654")
+        EmailAccount emailAccountTest = emailAccountBuilder.setUser("UserName").setDomain("UserDamain").setPassword("988654")
                 .setLastPasswordUpdate(LocalDate.now()).build();
         assertThrows(RuntimeException.class, () -> {
             emailClient.emailList(emailAccountTest);
@@ -182,9 +183,9 @@ public class EmailClientTest {
 
     }
 
-    @Test
-    public void testCreateAccountValid() {
-        EmailAccount emailAccountTest = emailBuilder.setUser("85").setDomain("UserDamain1").setPassword("123456")
+    @Test (Exepected = EmailAccount.class)
+    public void test_Create_Account_Valid() {
+        EmailAccount emailAccountTest = emailAccountBuilder.setUser("85").setDomain("UserDamain1").setPassword("123456")
                 .setLastPasswordUpdate(LocalDate.now()).build();
         assertTrue(emailClient.createAccount(emailAccountTest));
     }
