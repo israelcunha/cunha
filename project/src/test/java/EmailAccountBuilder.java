@@ -1,5 +1,4 @@
 import java.time.LocalDate;
-import java.util.Collection;
 
 public class EmailAccountBuilder {
 
@@ -8,21 +7,6 @@ public class EmailAccountBuilder {
         private String password;
         private LocalDate lastPasswordUpdate;
 
-
-    public String getUser() {
-        return user;
-    }
-    public String getDomain() {
-        return domain;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public LocalDate getLastPasswordUpdate() {
-        return lastPasswordUpdate;
-    }
 
     public EmailAccountBuilder setUser(String user) {
         this.user = user;
@@ -45,14 +29,13 @@ public class EmailAccountBuilder {
 
     }
 
+    public EmailAccount build(){
+        EmailAccount emailAccount = new EmailAccount();
+        emailAccount.setUser(this.user);
+        emailAccount.setDomain(this.domain);
+        emailAccount.setPassword(this.password);
+        emailAccount.setLastPasswordUpdate(this.lastPasswordUpdate);
+        return emailAccount;
 
-    public EmailAccount build() {
-        EmailAccount email = new EmailAccount();
-        email.setDomain(this.domain);
-        email.setPassword(this.password);
-        email.setUser(this.user);
-        email.setLastPasswordUpdate(this.lastPasswordUpdate);
-
-        return email;
     }
 }

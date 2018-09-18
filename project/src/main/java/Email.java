@@ -13,19 +13,6 @@ public class Email {
     public Email() {
     }
 
-
-    public Email(LocalDate creationDate, String from, Collection<String> to, Collection<String> cc, Collection<String> bcc,
-                 String subject, String message) {
-
-        this.creationDate = creationDate;
-        this.from = from;
-        this.to = to;
-        this.cc = cc;
-        this.bcc = bcc;
-        this.subject = subject;
-        this.message = message;
-    }
-
     public LocalDate getCreationDate() { return creationDate;}
 
     public void setCreationDate(LocalDate creationDate) {this.creationDate = creationDate;}

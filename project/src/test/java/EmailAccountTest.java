@@ -1,12 +1,7 @@
-
-import com.sun.org.apache.xpath.internal.operations.Equals;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-
-import java.time.Instant;
 import java.time.LocalDate;
-import java.time.Month;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -14,7 +9,6 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class EmailAccountTest {
 
     EmailAccountBuilder emailAccountBuilder;
-    LocalDate now = LocalDate.now();
 
     @BeforeEach
     public void setUpTest() {
@@ -46,7 +40,6 @@ public class EmailAccountTest {
         EmailAccount emailAccountTest = emailAccountBuilder.setUser("UsuarioValido").setDomain("!++*/+").setPassword("987654")
                 .setLastPasswordUpdate(LocalDate.now().plusDays(200)).build();
         assertTrue(emailAccountTest.verifyPasswordExpiration());
-
     }
 
     @Test

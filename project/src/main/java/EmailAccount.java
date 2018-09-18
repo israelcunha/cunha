@@ -8,6 +8,16 @@ public class EmailAccount {
     private String password;
     private LocalDate lastPasswordUpdate;
 
+
+    public EmailAccount(){}
+
+  /*  public EmailAccount(String user, String domain, String password, LocalDate lastPasswordUpdate){
+        this.user = user;
+        this.domain = domain;
+        this.password = password;
+        this.lastPasswordUpdate = lastPasswordUpdate;
+    }*/
+
     public String getUser() {return user;}
 
     public String getDomain() {return domain;}

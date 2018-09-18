@@ -2,17 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5fc98f7-2bb4-4ec4-8ab5-f69be2c38e6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/EmailAccountBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../school/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../school/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../school/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../school/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../school/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../school/school.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Email.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/EmailAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EmailAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EmailClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EmailClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/EmailAccountBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EmailAccountBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/EmailAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EmailAccountTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/EmailBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EmailBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/EmailClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EmailClientTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Email.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Email.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/EmailAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/EmailAccount.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/EmailClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/EmailClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/EmailAccountBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/EmailAccountBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/EmailAccountTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/EmailAccountTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/EmailClientTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/EmailClientTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,12 +30,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/project$EmailAccountTest.ic" NAME="EmailAccountTest Coverage Results" MODIFIED="1537203651306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/project$EmailAccountTest_test_Domain_Valid.ic" NAME="EmailAccountTest.test_Domain_Valid Coverage Results" MODIFIED="1537203585974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/project$EmailClientTest.ic" NAME="EmailClientTest Coverage Results" MODIFIED="1537203845913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/project$EmailAccountTest.ic" NAME="EmailAccountTest Coverage Results" MODIFIED="1537239933907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/project$EmailClientTest.ic" NAME="EmailClientTest Coverage Results" MODIFIED="1537239335543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="1" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="261" />
+    <option name="myElementSize" value="180" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="100364390">
@@ -86,27 +96,32 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.open.time.35" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="3" />
+          <entry key="java" value="14" />
+          <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="3" />
+          <entry key="JAVA" value="14" />
+          <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="896" />
+          <entry key="java" value="1511" />
+          <entry key="xml" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="896" />
+          <entry key="JAVA" value="1511" />
+          <entry key="XML" value="11" />
         </counts>
       </usages-collector>
     </session>
@@ -116,8 +131,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/EmailBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-372">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="816">
+              <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,10 +141,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/EmailClientTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-472">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#testEmailValid#0;class#EmailClientTest#0" />
+                <element signature="method#testEmailInvalidWithoutCreationDate#0;class#EmailClientTest#0" />
+                <element signature="method#testEmailInvalidWithTOInvalid#0;class#EmailClientTest#0" />
+                <element signature="method#testEmailInvalidWithCCInvalid#0;class#EmailClientTest#0" />
+                <element signature="method#testEmailInvalidWithBCCInvalid#0;class#EmailClientTest#0" />
+                <element signature="method#testEmailInvalidWithFromInvalid#0;class#EmailClientTest#0" />
+                <element signature="method#test_Email_List_With_PasswordValid#0;class#EmailClientTest#0" />
+                <element signature="method#testEmailListWithPasswordInvalid#0;class#EmailClientTest#0" />
+                <element signature="method#testSendEmailWithEmailValid#0;class#EmailClientTest#0" />
+                <element signature="method#testSendEmailWithEmailInvalid#0;class#EmailClientTest#0" />
+                <element signature="method#test_Create_Account_Valid#0;class#EmailClientTest#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Email.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-117">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="255">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -137,11 +175,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/EmailClientTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/EmailAccountTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="993">
-              <caret line="191" column="1" selection-start-line="191" selection-start-column="1" selection-end-line="191" selection-end-column="1" />
+            <state relative-caret-position="310">
+              <caret line="51" column="1" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#test_Password_Expiration_True#0;class#EmailAccountTest#0" />
+                <element signature="method#test_Password_Expiration_False#0;class#EmailAccountTest#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/EmailAccount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -152,23 +204,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/EmailAccountBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-192">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/EmailAccount.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-404">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -176,8 +213,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/EmailClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+            <state relative-caret-position="714">
+              <caret line="42" column="63" lean-forward="true" selection-start-line="42" selection-start-column="63" selection-end-line="42" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#322#323#0" expanded="true" />
@@ -187,11 +224,20 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/EmailService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+            <state relative-caret-position="136">
+              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -211,17 +257,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/utils/EmailBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/Email.java" />
-        <option value="$PROJECT_DIR$/src/main/java/EmailService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Email.java" />
         <option value="$PROJECT_DIR$/src/test/java/EmailBuilder.java" />
-        <option value="$PROJECT_DIR$/src/test/java/EmailAccountBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/EmailService.java" />
         <option value="$PROJECT_DIR$/src/main/java/EmailClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Email.java" />
         <option value="$PROJECT_DIR$/src/main/java/EmailAccount.java" />
+        <option value="$PROJECT_DIR$/src/test/java/EmailAccountBuilder.java" />
         <option value="$PROJECT_DIR$/src/test/java/EmailAccountTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/EmailClientTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -244,10 +290,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1984" />
-    <option name="y" value="-11" />
-    <option name="width" value="1857" />
-    <option name="height" value="1092" />
+    <option name="x" value="-17" />
+    <option name="width" value="770" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -258,8 +303,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -272,42 +315,18 @@
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537204470366" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537240080156" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cesar-school-unit-testing" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -333,7 +352,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EmailClientTest.test_Create_Account_Valid">
+  <component name="RunManager" selected="JUnit.EmailAccountTest">
     <configuration name="EmailAccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project" />
       <option name="PACKAGE_NAME" value="" />
@@ -350,26 +369,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmailClientTest.testEmailInvalidWithTOInvalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="project" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="EmailClientTest" />
-      <option name="METHOD_NAME" value="testEmailInvalidWithTOInvalid" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EmailClientTest.testEmailValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="project" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="EmailClientTest" />
-      <option name="METHOD_NAME" value="testEmailValid" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="EmailClientTest.test_Create_Account_Valid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project" />
       <option name="PACKAGE_NAME" value="" />
@@ -380,20 +379,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EmailClientTest.test_Email_List_With_PasswordInvalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EmailClientTest" />
+      <option name="METHOD_NAME" value="test_Email_List_With_PasswordInvalid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmailClientTest.test_Email_List_With_PasswordValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EmailClientTest" />
+      <option name="METHOD_NAME" value="test_Email_List_With_PasswordValid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.EmailAccountTest" />
-      <item itemvalue="JUnit.EmailClientTest.testEmailValid" />
-      <item itemvalue="JUnit.EmailClientTest" />
-      <item itemvalue="JUnit.EmailClientTest.testEmailInvalidWithTOInvalid" />
+      <item itemvalue="JUnit.EmailClientTest.test_Email_List_With_PasswordValid" />
+      <item itemvalue="JUnit.EmailClientTest.test_Email_List_With_PasswordInvalid" />
       <item itemvalue="JUnit.EmailClientTest.test_Create_Account_Valid" />
+      <item itemvalue="JUnit.EmailClientTest" />
+      <item itemvalue="JUnit.EmailAccountTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EmailClientTest.test_Create_Account_Valid" />
-        <item itemvalue="JUnit.EmailClientTest.testEmailInvalidWithTOInvalid" />
-        <item itemvalue="JUnit.EmailClientTest" />
-        <item itemvalue="JUnit.EmailClientTest.testEmailValid" />
         <item itemvalue="JUnit.EmailAccountTest" />
+        <item itemvalue="JUnit.EmailClientTest" />
+        <item itemvalue="JUnit.EmailClientTest.test_Create_Account_Valid" />
+        <item itemvalue="JUnit.EmailClientTest.test_Email_List_With_PasswordInvalid" />
+        <item itemvalue="JUnit.EmailClientTest.test_Email_List_With_PasswordValid" />
       </list>
     </recent_temporary>
   </component>
@@ -411,42 +430,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EmailAccountTest_testPasswordExpirationFalse - 2018.09.17 at 13h 53m 57s.xml">
-      <configuration name="EmailAccountTest.testPasswordExpirationFalse" configurationId="JUnit" />
+    <history-entry file="EmailClientTest_test_Email_List_With_PasswordValid - 2018.09.17 at 23h 41m 33s.xml">
+      <configuration name="EmailClientTest.test_Email_List_With_PasswordValid" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmailAccountTest - 2018.09.17 at 13h 55m 21s.xml">
-      <configuration name="EmailAccountTest" configurationId="JUnit" />
+    <history-entry file="EmailClientTest_test_Email_List_With_PasswordValid - 2018.09.17 at 23h 42m 55s.xml">
+      <configuration name="EmailClientTest.test_Email_List_With_PasswordValid" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmailAccountTest_testPassword_Expiration_False - 2018.09.17 at 13h 57m 51s.xml">
-      <configuration name="EmailAccountTest.testPassword_Expiration_False" configurationId="JUnit" />
+    <history-entry file="EmailClientTest_test_Email_List_With_PasswordValid - 2018.09.17 at 23h 46m 05s.xml">
+      <configuration name="EmailClientTest.test_Email_List_With_PasswordValid" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmailAccountTest - 2018.09.17 at 13h 57m 55s.xml">
-      <configuration name="EmailAccountTest" configurationId="JUnit" />
+    <history-entry file="EmailClientTest_test_Email_List_With_PasswordValid - 2018.09.17 at 23h 53m 03s.xml">
+      <configuration name="EmailClientTest.test_Email_List_With_PasswordValid" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmailAccountTest_test_Domain_Valid - 2018.09.17 at 13h 59m 46s.xml">
-      <configuration name="EmailAccountTest.test_Domain_Valid" configurationId="JUnit" />
+    <history-entry file="EmailClientTest_test_Email_List_With_PasswordInvalid - 2018.09.17 at 23h 53m 12s.xml">
+      <configuration name="EmailClientTest.test_Email_List_With_PasswordInvalid" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmailAccountTest - 2018.09.17 at 14h 00m 52s.xml">
-      <configuration name="EmailAccountTest" configurationId="JUnit" />
+    <history-entry file="EmailClientTest_test_Create_Account_Valid - 2018.09.17 at 23h 53m 18s.xml">
+      <configuration name="EmailClientTest.test_Create_Account_Valid" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmailClientTest_testEmailValid - 2018.09.17 at 14h 03m 55s.xml">
-      <configuration name="EmailClientTest.testEmailValid" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EmailClientTest - 2018.09.17 at 14h 04m 06s.xml">
+    <history-entry file="EmailClientTest - 2018.09.17 at 23h 54m 02s.xml">
       <configuration name="EmailClientTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmailClientTest_testEmailInvalidWithTOInvalid - 2018.09.17 at 14h 04m 18s.xml">
-      <configuration name="EmailClientTest.testEmailInvalidWithTOInvalid" configurationId="JUnit" />
+    <history-entry file="EmailClientTest - 2018.09.17 at 23h 55m 40s.xml">
+      <configuration name="EmailClientTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmailClientTest_test_Create_Account_Valid - 2018.09.17 at 14h 08m 57s.xml">
-      <configuration name="EmailClientTest.test_Create_Account_Valid" configurationId="JUnit" />
+    <history-entry file="EmailAccountTest - 2018.09.18 at 00h 01m 36s.xml">
+      <configuration name="EmailAccountTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmailAccountTest - 2018.09.18 at 00h 05m 44s.xml">
+      <configuration name="EmailAccountTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1984" y="-11" width="1857" height="1092" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20176893" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29198185" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -455,15 +474,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3294979" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32740587" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3267974" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32740587" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3267974" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -472,72 +491,29 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32980332" />
-      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32946378" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.3290469" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/utils/Email.java" />
     <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/time/Instant.class" />
     <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/util/function/BooleanSupplier.class" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/String.java" />
-    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/time/LocalDate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5889">
-          <caret line="475" column="21" selection-start-line="475" selection-start-column="21" selection-end-line="475" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/EmailAccountTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#700#701#0" expanded="true" />
-            <element signature="e#722#723#0" expanded="true" />
-            <element signature="e#812#813#0" expanded="true" />
-            <element signature="e#858#859#0" expanded="true" />
-            <element signature="e#950#951#0" expanded="true" />
-            <element signature="e#1000#1001#0" expanded="true" />
-            <element signature="e#1090#1091#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/time/LocalDate.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/EmailService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        <state relative-caret-position="136">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EmailClient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Email.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/EmailAccountBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-192">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state relative-caret-position="255">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -546,28 +522,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/EmailAccount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="34">
+          <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Email.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/EmailAccountBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-117">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state relative-caret-position="-404">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/EmailAccountTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="51" column="1" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#test_Password_Expiration_True#0;class#EmailAccountTest#0" />
+            <element signature="method#test_Password_Expiration_False#0;class#EmailAccountTest#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/EmailBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-372">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="816">
+          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -576,11 +561,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/EmailClientTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="993">
-          <caret line="191" column="1" selection-start-line="191" selection-start-column="1" selection-end-line="191" selection-end-column="1" />
+        <state relative-caret-position="-472">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#testEmailValid#0;class#EmailClientTest#0" />
+            <element signature="method#testEmailInvalidWithoutCreationDate#0;class#EmailClientTest#0" />
+            <element signature="method#testEmailInvalidWithTOInvalid#0;class#EmailClientTest#0" />
+            <element signature="method#testEmailInvalidWithCCInvalid#0;class#EmailClientTest#0" />
+            <element signature="method#testEmailInvalidWithBCCInvalid#0;class#EmailClientTest#0" />
+            <element signature="method#testEmailInvalidWithFromInvalid#0;class#EmailClientTest#0" />
+            <element signature="method#test_Email_List_With_PasswordValid#0;class#EmailClientTest#0" />
+            <element signature="method#testEmailListWithPasswordInvalid#0;class#EmailClientTest#0" />
+            <element signature="method#testSendEmailWithEmailValid#0;class#EmailClientTest#0" />
+            <element signature="method#testSendEmailWithEmailInvalid#0;class#EmailClientTest#0" />
+            <element signature="method#test_Create_Account_Valid#0;class#EmailClientTest#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/EmailClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="63" lean-forward="true" selection-start-line="42" selection-start-column="63" selection-end-line="42" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
         </state>
       </provider>
     </entry>

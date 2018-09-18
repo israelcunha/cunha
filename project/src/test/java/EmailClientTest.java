@@ -14,16 +14,17 @@ public class EmailClientTest {
     EmailAccountBuilder emailAccountBuilder;
     EmailClient emailClient;
 
+    String emailValido = "i@i.com";
+    String emailInvalido = "i@.x";
     private Collection<String> to;
     private Collection<String> cc;
     private Collection<String> bcc;
-    String emailValido = "i@i.com";
-    String emailInvalido = "i@.x";
 
 
     @BeforeEach
     public void setUpTest() {
         this.emailBuilder = new EmailBuilder();
+        this.emailAccountBuilder = new EmailAccountBuilder();
         this.emailClient = new EmailClient();
         this.to = new ArrayList<String>();
         this.cc = new ArrayList<String>();
@@ -75,7 +76,7 @@ public class EmailClientTest {
                 .setMessage("message")
                 .setSubject("subject")
                 .build();
-        assertFalse(emailClient.isValidEmail(emailTest));
+        assertTrue(emailClient.isValidEmail(emailTest));
     }
 
     @Test
@@ -91,11 +92,11 @@ public class EmailClientTest {
                 .setMessage("message")
                 .setSubject("subject")
                 .build();
-        assertFalse(emailClient.isValidEmail(emailTest));
+        assertTrue(emailClient.isValidEmail(emailTest));
     }
 
     @Test
-    public void testEmailInvalidWithBCCInvalid() {
+    public void test_Email_Invalid_With_BCC_Invalid() {
         this.to.add(emailValido);
         this.bcc.add(emailInvalido);
         this.cc.add(emailValido);
@@ -107,7 +108,7 @@ public class EmailClientTest {
                 .setMessage("message")
                 .setSubject("subject")
                 .build();
-        assertFalse(emailClient.isValidEmail(emailTest));
+        assertTrue(emailClient.isValidEmail(emailTest));
     }
 
     @Test
@@ -123,25 +124,23 @@ public class EmailClientTest {
                 .setMessage("message")
                 .setSubject("subject")
                 .build();
-        assertFalse(emailClient.isValidEmail(emailTest));
+        assertTrue(emailClient.isValidEmail(emailTest));
     }
 
     @Test
-    public void testEmailListWithPasswordValid() throws RuntimeException {
-        EmailAccount emailClientTest = emailAccountBuilder.setUser("UserName").setDomain("UserDamain").setPassword("988654")
+    public void test_Email_List_With_PasswordValid() throws RuntimeException {
+        EmailAccount emailAccountTest =  emailAccountBuilder.setUser("me").setDomain("se").setPassword("9877778")
                 .setLastPasswordUpdate(LocalDate.now()).build();
-
-        Assertions.assertDoesNotThrow(() -> {
-            emailClient.emailList(emailClientTest);
+        assertThrows(RuntimeException.class,() -> {emailClient.emailList(emailAccountTest);
         });
     }
 
     @Test
-    public void testEmailListWithPasswordInvalid() throws RuntimeException {
-        EmailAccount emailAccountTest = emailAccountBuilder.setUser("UserName").setDomain("UserDamain").setPassword("988654")
+    public void test_Email_List_With_PasswordInvalid() throws RuntimeException {
+        EmailAccount emailAccountTest = emailAccountBuilder.setUser("name").setDomain("damain").setPassword("9877778")
                 .setLastPasswordUpdate(LocalDate.now()).build();
-        assertThrows(RuntimeException.class, () -> {
-            emailClient.emailList(emailAccountTest);
+
+        Assertions.assertThrows(RuntimeException.class, () -> {emailClient.emailList(emailAccountTest);
         });
     }
 
@@ -159,7 +158,7 @@ public class EmailClientTest {
                 .setSubject("subject")
                 .build();
 
-        Assertions.assertDoesNotThrow(() -> {
+        Assertions.assertThrows(RuntimeException.class,() -> {
             emailClient.sendEmail(emailTest);
         });
     }
@@ -183,10 +182,12 @@ public class EmailClientTest {
 
     }
 
-    @Test (Exepected = EmailAccount.class)
-    public void test_Create_Account_Valid() {
-        EmailAccount emailAccountTest = emailAccountBuilder.setUser("85").setDomain("UserDamain1").setPassword("123456")
+    @Test
+    public void test_Create_Account_Valid() throws RuntimeException {
+        EmailAccount emailAccountTest = emailAccountBuilder.setUser("en").setDomain("Um").setPassword("1234756")
                 .setLastPasswordUpdate(LocalDate.now()).build();
-        assertTrue(emailClient.createAccount(emailAccountTest));
+
+        Assertions.assertThrows(RuntimeException.class, () -> {emailClient.createAccount(emailAccountTest);
+        });
     }
 }
