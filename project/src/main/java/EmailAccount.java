@@ -11,13 +11,6 @@ public class EmailAccount {
 
     public EmailAccount(){}
 
-  /*  public EmailAccount(String user, String domain, String password, LocalDate lastPasswordUpdate){
-        this.user = user;
-        this.domain = domain;
-        this.password = password;
-        this.lastPasswordUpdate = lastPasswordUpdate;
-    }*/
-
     public String getUser() {return user;}
 
     public String getDomain() {return domain;}
@@ -47,8 +40,6 @@ public class EmailAccount {
         int mes = this.lastPasswordUpdate.getMonthValue();
         int ano = this.lastPasswordUpdate.getYear();
         if (dataAtual.getYear() == ano && dataAtual.getMonthValue() - mes >= 3) {
-            return false;
-        } else if (dataAtual.getMonthValue() == (mes + 3) - 12) {
             return false;
         }
         return true;
