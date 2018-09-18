@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -6,9 +7,12 @@ import java.time.LocalDate;
 public class EmailClient implements EmailService {
 
 
-    private Collection<EmailAccount> accounts;
+    private Collection<EmailAccount> accounts = new ArrayList<EmailAccount>();
     private EmailService emailService;
 
+    public EmailService getEmailService() {
+        return emailService;
+    }
 
     public void setEmailService (EmailService emailService){
             this.emailService = emailService;
@@ -33,10 +37,9 @@ public class EmailClient implements EmailService {
 
         public void sendEmail (Email email){
             if (!this.isValidEmail(email)) {
-                throw new RuntimeException();
-            }
-            emailService.sendEmail(email);
-        }
+                throw new RuntimeException();}
+
+            emailService.sendEmail(email); }
 
         public boolean createAccount (EmailAccount account){
             if (account.getUser() != null && account.getDomain() != null && account.getPassword().length() > 6) {

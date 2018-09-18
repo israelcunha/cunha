@@ -14,8 +14,8 @@ public class EmailClientTest {
     EmailAccountBuilder emailAccountBuilder;
     EmailClient emailClient;
 
-    String emailValido = "i@i.com";
-    String emailInvalido = "i@.x";
+    String email_Valido = "i@i.com";
+    String email_Invalido = "i@.x";
     private Collection<String> to;
     private Collection<String> cc;
     private Collection<String> bcc;
@@ -32,13 +32,13 @@ public class EmailClientTest {
     }
 
     @Test
-    public void testEmailValid() {
-        this.to.add(emailValido);
-        this.bcc.add(emailValido);
-        this.cc.add(emailValido);
+    public void test_Email_Valid() {
+        this.to.add(email_Valido);
+        this.bcc.add(email_Valido);
+        this.cc.add(email_Valido);
         Email emailTest = emailBuilder.setBcc(bcc)
                 .setCc(cc)
-                .setFrom(emailValido)
+                .setFrom("email_Valido")
                 .setCreationDate(LocalDate.now())
                 .setTo(to)
                 .setMessage("message")
@@ -46,15 +46,31 @@ public class EmailClientTest {
                 .build();
         assertTrue(emailClient.isValidEmail(emailTest));
     }
-
     @Test
-    public void testEmailInvalidWithoutCreationDate() {
-        this.to.add(emailInvalido);
-        this.bcc.add(emailValido);
-        this.cc.add(emailValido);
+    public void test_Email_Invalid() throws RuntimeException {
+        this.to.add(null);
+        this.bcc.add(null);
+        this.cc.add(null);
         Email emailTest = emailBuilder.setBcc(bcc)
                 .setCc(cc)
-                .setFrom(emailValido)
+                .setFrom(null)
+                .setCreationDate(LocalDate.now())
+                .setTo(to)
+                .setMessage(null)
+                .setSubject(null)
+                .build();
+        Assertions.assertThrows(RuntimeException.class, () -> { emailClient.isValidEmail(emailTest);
+
+     });
+    }
+    @Test
+    public void testEmail_Invalid_Without_CreationDate() {
+        this.to.add(email_Invalido);
+        this.bcc.add(email_Valido);
+        this.cc.add(email_Valido);
+        Email emailTest = emailBuilder.setBcc(bcc)
+                .setCc(cc)
+                .setFrom(email_Valido)
                 .setCreationDate(null)
                 .setTo(to)
                 .setMessage("message")
@@ -64,13 +80,13 @@ public class EmailClientTest {
     }
 
     @Test
-    public void testEmailInvalidWithTOInvalid() {
-        this.to.add(emailInvalido);
-        this.bcc.add(emailValido);
-        this.cc.add(emailValido);
+    public void testEmail_Invalid_With_TOInvalid() {
+        this.to.add(email_Invalido);
+        this.bcc.add(email_Valido);
+        this.cc.add(email_Valido);
         Email emailTest = emailBuilder.setBcc(bcc)
                 .setCc(cc)
-                .setFrom(emailValido)
+                .setFrom(email_Valido)
                 .setCreationDate(LocalDate.now())
                 .setTo(to)
                 .setMessage("message")
@@ -80,13 +96,13 @@ public class EmailClientTest {
     }
 
     @Test
-    public void testEmailInvalidWithCCInvalid() {
-        this.to.add(emailValido);
-        this.bcc.add(emailValido);
-        this.cc.add(emailInvalido);
+    public void testEmail_Invalid_WithC_CInvalid() {
+        this.to.add(email_Valido);
+        this.bcc.add(email_Valido);
+        this.cc.add(email_Invalido);
         Email emailTest = emailBuilder.setBcc(bcc)
                 .setCc(cc)
-                .setFrom(emailValido)
+                .setFrom(email_Valido)
                 .setCreationDate(LocalDate.now())
                 .setTo(to)
                 .setMessage("message")
@@ -97,12 +113,12 @@ public class EmailClientTest {
 
     @Test
     public void test_Email_Invalid_With_BCC_Invalid() {
-        this.to.add(emailValido);
-        this.bcc.add(emailInvalido);
-        this.cc.add(emailValido);
+        this.to.add(email_Valido);
+        this.bcc.add(email_Invalido);
+        this.cc.add(email_Valido);
         Email emailTest = emailBuilder.setBcc(bcc)
                 .setCc(cc)
-                .setFrom(emailValido)
+                .setFrom(email_Valido)
                 .setCreationDate(LocalDate.now())
                 .setTo(to)
                 .setMessage("message")
@@ -113,12 +129,12 @@ public class EmailClientTest {
 
     @Test
     public void testEmailInvalidWithFromInvalid() {
-        this.to.add(emailValido);
-        this.bcc.add(emailValido);
-        this.cc.add(emailValido);
+        this.to.add(email_Valido);
+        this.bcc.add(email_Valido);
+        this.cc.add(email_Valido);
         Email emailTest = emailBuilder.setBcc(bcc)
                 .setCc(cc)
-                .setFrom(emailInvalido)
+                .setFrom(email_Invalido)
                 .setCreationDate(LocalDate.now())
                 .setTo(to)
                 .setMessage("message")
@@ -129,9 +145,10 @@ public class EmailClientTest {
 
     @Test
     public void test_Email_List_With_PasswordValid() throws RuntimeException {
-        EmailAccount emailAccountTest =  emailAccountBuilder.setUser("me").setDomain("se").setPassword("9877778")
+        EmailAccount emailAccountTest = emailAccountBuilder.setUser("me").setDomain("se").setPassword("9877778")
                 .setLastPasswordUpdate(LocalDate.now()).build();
-        assertThrows(RuntimeException.class,() -> {emailClient.emailList(emailAccountTest);
+        assertThrows(RuntimeException.class, () -> {
+            emailClient.emailList(emailAccountTest);
         });
     }
 
@@ -140,37 +157,38 @@ public class EmailClientTest {
         EmailAccount emailAccountTest = emailAccountBuilder.setUser("name").setDomain("damain").setPassword("9877778")
                 .setLastPasswordUpdate(LocalDate.now()).build();
 
-        Assertions.assertThrows(RuntimeException.class, () -> {emailClient.emailList(emailAccountTest);
+        Assertions.assertThrows(RuntimeException.class, () -> {
+            emailClient.emailList(emailAccountTest);
         });
     }
 
     @Test
-    public void testSendEmailWithEmailValid() throws RuntimeException {
-        this.to.add(emailValido);
-        this.bcc.add(emailValido);
-        this.cc.add(emailValido);
+    public void test_SendEmail_With_EmailValid() throws RuntimeException {
+        this.to.add(email_Valido);
+        this.bcc.add(email_Valido);
+        this.cc.add(email_Valido);
         Email emailTest = emailBuilder.setBcc(bcc)
                 .setCc(cc)
-                .setFrom(emailValido)
+                .setFrom(email_Valido)
                 .setCreationDate(LocalDate.now())
                 .setTo(to)
                 .setMessage("message")
                 .setSubject("subject")
                 .build();
 
-        Assertions.assertThrows(RuntimeException.class,() -> {
+        Assertions.assertThrows(RuntimeException.class, () -> {
             emailClient.sendEmail(emailTest);
         });
     }
 
     @Test
-    public void testSendEmailWithEmailInvalid() throws RuntimeException {
-        this.to.add(emailInvalido);
-        this.bcc.add(emailValido);
-        this.cc.add(emailValido);
+    public void test_SendEmail_With_EmailInvalid() throws RuntimeException {
+        this.to.add(email_Invalido);
+        this.bcc.add(email_Valido);
+        this.cc.add(email_Valido);
         Email emailTest = emailBuilder.setBcc(bcc)
                 .setCc(cc)
-                .setFrom(emailValido)
+                .setFrom(email_Valido)
                 .setCreationDate(LocalDate.now())
                 .setTo(to)
                 .setMessage("message")
@@ -183,11 +201,25 @@ public class EmailClientTest {
     }
 
     @Test
-    public void test_Create_Account_Valid() throws RuntimeException {
-        EmailAccount emailAccountTest = emailAccountBuilder.setUser("en").setDomain("Um").setPassword("1234756")
+    public void test_Create_Account_Valid() {
+        EmailAccount emailAccountTest = emailAccountBuilder.setUser("s").setDomain("asc").setPassword("12bbb67")
                 .setLastPasswordUpdate(LocalDate.now()).build();
 
-        Assertions.assertThrows(RuntimeException.class, () -> {emailClient.createAccount(emailAccountTest);
+        assertTrue(emailClient.createAccount(emailAccountTest));
+    }
+
+    @Test
+    public void test_Create_Account_inValid() {
+        EmailAccount emailAccountTest = emailAccountBuilder.setUser(null).setDomain(null).setPassword(null)
+                .setLastPasswordUpdate(LocalDate.of(2016, 05, 05)).build();
+
+        Assertions.assertFalse(emailClient.createAccount(emailAccountTest));
+    }
+
+    @Test
+    public void testSetEmailService() {
+        Assertions.assertDoesNotThrow(() -> {
+            emailClient.setEmailService(emailClient.getEmailService());
         });
     }
 }
