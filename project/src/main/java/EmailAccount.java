@@ -33,8 +33,6 @@ public class EmailAccount {
         this.lastPasswordUpdate = lastPasswordUpdate;
     }
 
-
-
     public boolean verifyPasswordExpiration() {
         LocalDate dataAtual = LocalDate.now();
         int mes = this.lastPasswordUpdate.getMonthValue();
@@ -43,7 +41,5 @@ public class EmailAccount {
             return false;
         }
         return true;
-
     }
-
 }

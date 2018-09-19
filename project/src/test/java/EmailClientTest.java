@@ -98,7 +98,7 @@ public class EmailClientTest {
     }
 
     @Test
-    public void test_Email_Invalid_WithC_CInvalid() {
+    public void test_Email_Invalid_With_CCInvalid() {
         this.to.add(email_Valido);
         this.bcc.add(email_Valido);
         this.cc.add(email_Invalido);

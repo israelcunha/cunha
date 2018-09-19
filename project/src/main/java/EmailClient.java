@@ -52,4 +52,3 @@ public class EmailClient implements EmailService {
         }
 
    }
-

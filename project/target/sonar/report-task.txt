@@ -1,0 +1,7 @@
+organization=israelcunha-github
+projectKey=israelcunha_cunha
+serverUrl=https://sonarcloud.io
+serverVersion=7.4.0.17063
+dashboardUrl=https://sonarcloud.io/dashboard?id=israelcunha_cunha
+ceTaskId=AWXvnGi2LZs2IyZtdVwq
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWXvnGi2LZs2IyZtdVwq

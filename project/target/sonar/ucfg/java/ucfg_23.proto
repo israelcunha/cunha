@@ -1,0 +1,50 @@
+
+"EmailClient#isValidEmail(LEmail;)Z
+__unknown_file (email"5*Ω
+1V
+LC:\Users\Israel Cunha\Documents\cunha\project\src\main\java\EmailClient.java (m"`
+V
+LC:\Users\Israel Cunha\Documents\cunha\project\src\main\java\EmailClient.java (m
+""*˚
+2V
+LC:\Users\Israel Cunha\Documents\cunha\project\src\main\java\EmailClient.javaS (Xè
+å
+V
+LC:\Users\Israel Cunha\Documents\cunha\project\src\main\java\EmailClient.javaS (b
+%3"!Email#getFrom()Ljava/lang/String;*	
+
+emailÜ
+É
+V
+LC:\Users\Israel Cunha\Documents\cunha\project\src\main\java\EmailClient.javaS (l
+%4"java.lang.String#isEmpty()Z*
+
+%3*
+1*Ñ
+4V
+LC:\Users\Israel Cunha\Documents\cunha\project\src\main\java\EmailClient.java7 (<ë
+é
+V
+LC:\Users\Israel Cunha\Documents\cunha\project\src\main\java\EmailClient.java7 (D
+%1"#Email#getTo()Ljava/util/Collection;*	
+
+emailä
+á
+V
+LC:\Users\Israel Cunha\Documents\cunha\project\src\main\java\EmailClient.java7 (N
+%2"java.util.Collection#isEmpty()Z*
+
+%1*
+2
+1*É
+5V
+LC:\Users\Israel Cunha\Documents\cunha\project\src\main\java\EmailClient.java (ö
+ó
+V
+LC:\Users\Israel Cunha\Documents\cunha\project\src\main\java\EmailClient.java (*
+%0",Email#getCreationDate()Ljava/time/LocalDate;*	
+
+email*	
+2
+4
+1

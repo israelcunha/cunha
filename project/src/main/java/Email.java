@@ -25,22 +25,12 @@ public class Email {
 
     public void setTo(Collection<String> to) {this.to = to;}
 
-    //public Collection<String> getCc() {return cc;}
-
     public void setCc(Collection<String> cc) {this.cc = cc;}
-
-  //  public Collection<String> getBcc() {return bcc;}
 
     public void setBcc(Collection<String> bcc) {this.bcc = bcc;}
 
-  //  public String getSubject() {return subject;}
-
     public void setSubject(String subject) {this.subject = subject;}
 
-  //  public String getMessage() {return message;}
-
     public void setMessage(String message) {this.message = message; }
-
-   // public String getUser(String user) {return user;}
 
    }
