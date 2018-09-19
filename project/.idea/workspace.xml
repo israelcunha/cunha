@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="b5fc98f7-2bb4-4ec4-8ab5-f69be2c38e6e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/EmailClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EmailClientTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/report-task.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/report-task.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg/java/ucfg_10.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg/java/ucfg_10.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg/java/ucfg_19.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg/java/ucfg_19.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg/java/ucfg_7.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg/java/ucfg_7.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg/java/ucfg_8.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg/java/ucfg_8.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg/java/ucfg_9.proto" beforeDir="false" afterPath="$PROJECT_DIR$/target/sonar/ucfg/java/ucfg_9.proto" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -89,24 +94,24 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="java" value="18" />
-          <entry key="xml" value="2" />
+          <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JAVA" value="18" />
-          <entry key="XML" value="2" />
+          <entry key="XML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1757" />
+          <entry key="java" value="1759" />
           <entry key="xml" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1757" />
+          <entry key="JAVA" value="1759" />
           <entry key="XML" value="11" />
         </counts>
       </usages-collector>
@@ -117,8 +122,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/EmailClientTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="100" column="43" selection-start-line="100" selection-start-column="43" selection-end-line="100" selection-end-column="43" />
+            <state relative-caret-position="176">
+              <caret line="100" column="42" selection-start-line="100" selection-start-column="42" selection-end-line="100" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#setUpTest#0;class#EmailClientTest#0" />
@@ -315,7 +320,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537324201519" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537324684006" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -573,10 +578,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/EmailClientTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="100" column="43" selection-start-line="100" selection-start-column="43" selection-end-line="100" selection-end-column="43" />
+        <state relative-caret-position="176">
+          <caret line="100" column="42" selection-start-line="100" selection-start-column="42" selection-end-line="100" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#setUpTest#0;class#EmailClientTest#0" />
