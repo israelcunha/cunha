@@ -1,48 +1,0 @@
-
-/EmailClient#isValidAddress(Ljava/lang/String;)Z
-__unknown_file (emailAddress"1*ú	
-1V
-LC:\Users\Israel Cunha\Documents\cunha\project\src\main\java\EmailClient.java (ö
-ó
-V
-LC:\Users\Israel Cunha\Documents\cunha\project\src\main\java\EmailClient.javaU (m
-%0"__id*1*/
-java.util.regex.Pattern"
-CASE_INSENSITIVEÑ
-Å
-V
-LC:\Users\Israel Cunha\Documents\cunha\project\src\main\java\EmailClient.java (n
-%1"Mjava.util.regex.Pattern#compile(Ljava/lang/String;I)Ljava/util/regex/Pattern;*"
-java.util.regex.Pattern*-+
-)^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,6}$*
-
-%0m
-k
-V
-LC:\Users\Israel Cunha\Documents\cunha\project\src\main\java\EmailClient.java (o
-p"__id*
-
-%1Œ
-À
-V
-LC:\Users\Israel Cunha\Documents\cunha\project\src\main\java\EmailClient.java (/
-%2"Rjava.util.regex.Pattern#matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;*
-
-p*
-
-emailAddressm
-k
-V
-LC:\Users\Israel Cunha\Documents\cunha\project\src\main\java\EmailClient.java (0
-m"__id*
-
-%2â
-Ü
-V
-LC:\Users\Israel Cunha\Documents\cunha\project\src\main\java\EmailClient.java (
-%3"java.util.regex.Matcher#find()Z*
-
-m"`
-V
-LC:\Users\Israel Cunha\Documents\cunha\project\src\main\java\EmailClient.java (
-""

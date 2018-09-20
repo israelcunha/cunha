@@ -3,7 +3,42 @@
   <component name="ChangeListManager">
     <list default="true" id="b5fc98f7-2bb4-4ec4-8ab5-f69be2c38e6e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Email.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/EmailAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/EmailClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/EmailService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/report-task.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg/java/ucfg_0.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg/java/ucfg_1.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg/java/ucfg_10.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg/java/ucfg_11.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg/java/ucfg_12.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg/java/ucfg_13.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg/java/ucfg_14.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg/java/ucfg_15.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg/java/ucfg_16.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg/java/ucfg_17.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg/java/ucfg_18.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg/java/ucfg_19.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg/java/ucfg_2.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg/java/ucfg_20.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg/java/ucfg_21.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg/java/ucfg_22.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg/java/ucfg_23.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg/java/ucfg_24.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg/java/ucfg_25.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg/java/ucfg_26.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg/java/ucfg_3.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg/java/ucfg_4.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg/java/ucfg_5.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg/java/ucfg_6.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg/java/ucfg_7.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg/java/ucfg_8.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/sonar/ucfg/java/ucfg_9.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/EmailAccountBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/EmailAccountTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/EmailBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/EmailClientTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,8 +50,8 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/project$EmailAccountTest_test_Domain_Valid.ic" NAME="EmailAccountTest.test_Domain_Valid Coverage Results" MODIFIED="1537203585974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/project$EmailAccountTest.ic" NAME="EmailAccountTest Coverage Results" MODIFIED="1537325619933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/project$EmailClientTest.ic" NAME="EmailClientTest Coverage Results" MODIFIED="1537325961648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/project$EmailAccountTest.ic" NAME="EmailAccountTest Coverage Results" MODIFIED="1537410820180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/project$EmailClientTest.ic" NAME="EmailClientTest Coverage Results" MODIFIED="1537410740955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CoverageOptionsProvider">
     <option name="myAddOrReplace" value="1" />
@@ -80,12 +115,13 @@
     <session id="738976461">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.69" value="1" />
           <entry key="project.open.time.73" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -103,13 +139,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="1765" />
-          <entry key="xml" value="15" />
+          <entry key="xml" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="1765" />
-          <entry key="XML" value="15" />
+          <entry key="XML" value="39" />
         </counts>
       </usages-collector>
     </session>
@@ -119,8 +155,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+            <state relative-caret-position="120">
+              <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -256,7 +292,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537326093198" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537411755258" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -284,7 +320,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EmailClientTest">
+  <component name="RunManager" selected="JUnit.EmailAccountTest">
     <configuration name="EmailAccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project" />
       <option name="PACKAGE_NAME" value="" />
@@ -340,8 +376,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EmailClientTest" />
         <item itemvalue="JUnit.EmailAccountTest" />
+        <item itemvalue="JUnit.EmailClientTest" />
         <item itemvalue="JUnit.EmailClientTest.test_SendEmail_With_EmailInvalid" />
         <item itemvalue="JUnit.EmailClientTest.test_Email_List_With_PasswordInvalid" />
         <item itemvalue="JUnit.EmailClientTest.test_Email_Valid" />
@@ -362,12 +398,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EmailClientTest_test_SendEmail_With_EmailInvalid - 2018.09.18 at 22h 20m 48s.xml">
-      <configuration name="EmailClientTest.test_SendEmail_With_EmailInvalid" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EmailClientTest_test_SendEmail_With_EmailInvalid - 2018.09.18 at 22h 23m 01s.xml">
-      <configuration name="EmailClientTest.test_SendEmail_With_EmailInvalid" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EmailClientTest - 2018.09.18 at 22h 24m 39s.xml">
       <configuration name="EmailClientTest" configurationId="JUnit" />
     </history-entry>
@@ -392,12 +422,17 @@
     <history-entry file="EmailClientTest - 2018.09.18 at 23h 59m 35s.xml">
       <configuration name="EmailClientTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="EmailClientTest - 2018.09.19 at 23h 33m 19s.xml">
+      <configuration name="EmailClientTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EmailAccountTest - 2018.09.19 at 23h 34m 02s.xml">
+      <configuration name="EmailAccountTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2473525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25113463" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -411,7 +446,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32843137" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32843137" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32843137" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32635984" />
@@ -422,7 +457,7 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" weight="0.32980332" />
+      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.32980332" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.35098335" />
     </layout>
   </component>
@@ -495,21 +530,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/EmailClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="method#isValidAddress#0;class#EmailClient#0" />
-            <element signature="method#isValidEmail#0;class#EmailClient#0" />
-            <element signature="method#createAccount#0;class#EmailClient#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/EmailBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -542,8 +562,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+        <state relative-caret-position="120">
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/EmailClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="method#isValidAddress#0;class#EmailClient#0" />
+            <element signature="method#isValidEmail#0;class#EmailClient#0" />
+            <element signature="method#createAccount#0;class#EmailClient#0" />
+          </folding>
         </state>
       </provider>
     </entry>
